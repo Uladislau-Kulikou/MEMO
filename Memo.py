@@ -447,6 +447,13 @@ class App(ctk.CTk):
         self.show_test_preview()
 
     def update_sidebar(self):
+        self.themes_combobox.destroy()  # Option menu has to be recreated, otherwise it will contain the previous obsolete value
+        self.themes_combobox = ctk.CTkOptionMenu(self.sidebar_frame, values=self.themes or ["No theme found"],
+                                                command=self.theme_option_menu_event, anchor='s',
+                                                font=ctk.CTkFont(size=15))
+        self.themes_combobox.grid(row=1, pady=10)
+        self.themes_combobox.set(self.selected_theme)
+
         self.tests_combobox.destroy()  # Option menu has to be recreated, otherwise it will contain the previous obsolete value
         self.tests_combobox = ctk.CTkOptionMenu(self.sidebar_frame, values=self.tests or ["No test found"],
                                                 command=self.test_option_menu_event, anchor='s',
@@ -661,4 +668,5 @@ if __name__ == "__main__":
 #   7. Make a license if paragraph 1 and 2 didn't help with the app being considered a virus
 #   8. Add voice assistance
 #   9. Add sentence examples
+
 
