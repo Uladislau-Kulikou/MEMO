@@ -1,4 +1,3 @@
-# MEMO
 # MEMO  
 
 This application was created for visual learners to help them store and memorize new words.  
