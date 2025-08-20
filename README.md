@@ -8,7 +8,7 @@ By constantly passing tests, you’ll memorize new words much faster.
 ---
 
 ## Proper usage  
-- Don’t make tests longer than **30 words** — it hurts memorization and overwhelms the user.  
+- Don’t make tests longer than **30 words** — it hurts memorization and overwhelms you.  
 - Split topics (verbs, nouns, etc.), so quizzes don’t become too easy just by guessing the type of word.  
 - For new topics, start with **quizzes**. Once you get used to them, switch to **tests** — they require exact translations, letter by letter, making them harder but more effective.  
 
