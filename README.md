@@ -5,6 +5,7 @@ When you study a new language and encounter a new word, you can quickly save it 
 It’s very convenient for keeping words organized — you can separate them by **languages** and **topics**.  
 By constantly passing tests, you’ll memorize new words much faster.  
 
+![Demo](assets/screenshot.png)
 ---
 
 ## Proper usage  
