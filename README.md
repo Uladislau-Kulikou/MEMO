@@ -37,7 +37,7 @@ Steps:
 3. Navigate to the folder with main.py.
 4. Run:
    ```bash
-   python -m PyInstaller --name="MEMO" --onefile --noconsole --add-data="venv\Lib\site-packages\customtkinter;customtkinter/" --icon=assets/book.ico main.py
+   python -m PyInstaller --name="MEMO" --onefile --noconsole --add-data="venv\Lib\site-packages\customtkinter;customtkinter/" main.py
 ⚠️ Note: customtkinter doesn’t play nicely with PyInstaller, so the command is very sensitive to changes. Even small edits can break the build.
 
 > **Troubleshooting**  
