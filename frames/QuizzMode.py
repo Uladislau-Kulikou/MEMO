@@ -89,9 +89,9 @@ class QuizzMode(ctk.CTkFrame):
 
     def wrong_answer_button_event(self, button: ctk.CTkButton):
         """ Is used in quizz mode"""
-        grades = [0, 0, 0.1, 1]
-        for i in range(4):  # Hardcoded `grades` length
-            if self.subcounter == grades[i]:
-                self.subcounter = grades[i + 1]
-                break
+        if self.subcounter == 0:
+            self.subcounter = 0.5
+        elif self.subcounter == 0.5:
+            self.subcounter = 1
         button.configure(state='disabled', fg_color='red')
+
