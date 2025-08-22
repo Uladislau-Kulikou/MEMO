@@ -43,3 +43,12 @@ Steps:
 > **Troubleshooting**  
 > If compilation fails, check the [official Custom-Tkinter packaging guide](https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging) for tips and solutions.
 
+---
+
+##  Download
+
+You can download the latest compiled version of **MEMO** here:  
+👉 [Latest Release](https://github.com/Uladislau-Kulikou/MEMO/releases/latest)
+
+The release contains a single `.exe` file (~8 MB), ready to run—no dependencies or installation needed. Just download and launch to start learning.
+
